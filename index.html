@@ -10,9 +10,9 @@
 <body>
     <a-scene arjs>
         <a-assets>
-            <a-asset-item id="ghost" src="ghost.gltf"></a-asset-item>
+            <a-asset-item id="ghost" src="ghost.obj"></a-asset-item>
           </a-assets>
-          <a-entity gltf-model="##ghost"></a-entity>
+          <a-obj-model src="#ghost" scale="0.11111 0.11111 0.111111" position="0 -0.1 0"></a-obj-model>
         <a-marker-camera preset='hiro'></a-marker-camera>
   </a-scene>
 </body>
